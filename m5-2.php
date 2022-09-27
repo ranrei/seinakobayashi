@@ -12,13 +12,13 @@
     
       <?php 
        // 【サンプル】 
-    // ・データベース名：tb240278db 
-    // ・ユーザー名：tb-240278 
-    // ・パスワード：r4ht5CdUkZm 
+    // ・データベース名
+    // ・ユーザー名
+    // ・パスワード
      //データベース接続設定
-    $dsn='mysql:dbname=tb240278db;host=localhost';//データベース名、ホスト名（接続先を定義）
-    $user = 'tb-240278';//MySQLのユーザー名
-    $password = '4ht5CdUkZm';//MySQLのパスワード
+    $dsn='データベース名';//データベース名、ホスト名（接続先を定義）
+    $user = 'MySQLのユーザー名';//MySQLのユーザー名
+    $password = 'パスワード';//MySQLのパスワード
     $pdo =new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));//PDOクラスは、PHPとデータベースサーバーの間の接続を表す。PDO 基底クラスのインスタンスを作成することにより、接続が確立されます。 
     //「ATTR_ERRMODE」SQL実行でエラーが起こった際にどう処理するかを指定します
      //テーブルの作成 
